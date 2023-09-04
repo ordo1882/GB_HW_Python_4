@@ -5,8 +5,8 @@
 
 import random
 
-n = int(input("Enter first list lenght: "))
-m = int(input("Enter second list lenght: "))
+n = int(input("Enter the first list lenght: "))
+m = int(input("Enter the second list lenght: "))
 
 list_1 = [random.randint(0, 15) for i in range(n)]
 list_2 = [random.randint(0, 15) for i in range(m)]
